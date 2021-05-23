@@ -1,0 +1,122 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Array1",
+            "request": "launch",
+            "mainClass": "Array1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Array2",
+            "request": "launch",
+            "mainClass": "Array2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Array3",
+            "request": "launch",
+            "mainClass": "Array3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Array4",
+            "request": "launch",
+            "mainClass": "Array4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Array5",
+            "request": "launch",
+            "mainClass": "Array5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Array6",
+            "request": "launch",
+            "mainClass": "Array6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Array7",
+            "request": "launch",
+            "mainClass": "Array7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Array8",
+            "request": "launch",
+            "mainClass": "Array8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Array9CircularSum",
+            "request": "launch",
+            "mainClass": "Array9CircularSum"
+        },
+        {
+            "type": "java",
+            "name": "Launch MarjorityElement",
+            "request": "launch",
+            "mainClass": "MarjorityElement"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayOddOrEven",
+            "request": "launch",
+            "mainClass": "questions2.ArrayOddOrEven"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "questions2.BinarySearch"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calcalutor",
+            "request": "launch",
+            "mainClass": "questions2.Calcalutor"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckArrayEqual",
+            "request": "launch",
+            "mainClass": "questions2.CheckArrayEqual"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountWords",
+            "request": "launch",
+            "mainClass": "questions2.CountWords"
+        },
+        {
+            "type": "java",
+            "name": "Launch DuplicateElementOfArray",
+            "request": "launch",
+            "mainClass": "questions2.DuplicateElementOfArray"
+        },
+        {
+            "type": "java",
+            "name": "Launch FactrorialSeries",
+            "request": "launch",
+            "mainClass": "questions2.FactrorialSeries"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReversWordString",
+            "request": "launch",
+            "mainClass": "questions2.ReversWordString"
+        }
+    ]
+}
