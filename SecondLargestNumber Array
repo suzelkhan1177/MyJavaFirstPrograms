@@ -1,0 +1,22 @@
+let arr  = [2,3,4,6,6,5];
+
+let first = arr[0];// 
+let second = -1;
+
+for(let i =0; i<arr.length; i++){ // i =2 // i=3 // i =4 // i=6 // i= 6// i = 5
+  
+  if(arr[i] > first ){ // 2 >3 = f // 
+    
+    second = first; //  2 // 3// 4//
+    first = arr[i]; // 3 // 4// 6//
+     
+  }
+  
+    if(arr[i] > second  && arr[i] < first){
+      
+      second = arr[i];
+    }
+  
+}
+
+console.log(second);
