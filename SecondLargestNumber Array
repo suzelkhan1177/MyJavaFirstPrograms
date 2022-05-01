@@ -1,22 +1,35 @@
-let arr  = [2,3,4,6,6,5];
+import java.util.*;
+public class Solution {  
 
-let first = arr[0];// 
-let second = -1;
-
-for(let i =0; i<arr.length; i++){ // i =2 // i=3 // i =4 // i=6 // i= 6// i = 5
-  
-  if(arr[i] > first ){ // 2 >3 = f // 
-    
-    second = first; //  2 // 3// 4//
-    first = arr[i]; // 3 // 4// 6//
-     
-  }
-  
-    if(arr[i] > second  && arr[i] < first){
-      
-      second = arr[i];
+    public static int secondLargestElement(int[] arr) {
+    	//Your code goes here
+        int n = arr.length;
+        
+        int first = Integer.MIN_VALUE;
+       int second = Integer.MIN_VALUE;
+        
+    if(n ==0){
+        
+        return second;
     }
-  
-}
+        
+        for(int i=0;i<n; i++){
+            
+            
+            if(arr[i] > first){
+                
+                second = first;
+                first = arr[i];
+            }
+            
+            
+            if(arr[i] > second && arr[i] > first)
+                  second = arr[i];
+            
+        }
+        
+        return second;
+        
+    }
 
-console.log(second);
+}
