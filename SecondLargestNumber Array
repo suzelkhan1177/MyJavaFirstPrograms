@@ -23,7 +23,7 @@ public class Solution {
             }
             
             
-            if(arr[i] > second && arr[i] > first)
+            if(arr[i] > second && arr[i] != first)
                   second = arr[i];
             
         }
